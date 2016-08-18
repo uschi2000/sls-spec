@@ -10,7 +10,7 @@ These components are **required** by SLS. :
   product installations. This includes binaries, libraries, and static resources.
   This can also be symlink to such a directory.
 
-* A ``deployment`` directory which contains a file named ``manifest.yml` This file contains a set of descriptors about the artifact:
+* A ``deployment`` directory which contains a file named ``manifest.yml`` This file contains a set of descriptors about the artifact:
 
    * `manifestVersion`: the version of this file
    * `productName`: the name of the product contained in this artifact
