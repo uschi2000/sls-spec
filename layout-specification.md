@@ -1,6 +1,6 @@
 # Service Layout Specification
 
-The Service Layout Specification Version 2 (SLS) describes how a product should be arranged
+The Service Layout Specification (SLS) describes how a product should be arranged
 and packaged so that deployment infrastructure can use it to create and manage service instances. It includes a **required**
 service layout and package layout, along with **optional** extensions that enable additional
 deployment infrastructure functionality.
