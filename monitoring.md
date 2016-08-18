@@ -1,7 +1,7 @@
 # Monitoring Extension
 
 This extension of the specification enables monitoring via the deployment infrastructure.
-To use mond, a service must conform to both [SLSv2](/required.md/) and this extension.
+To use mond, a service must conform to both [SLS](/required.md) and this extension.
 
 
 # Monitoring Check Script(s)
