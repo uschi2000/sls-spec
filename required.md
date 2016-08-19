@@ -83,7 +83,7 @@ stored in a separate ``.binaries`` directory, the default path of which is
 ## Standard Layout Service Package Layout
 
 The deployment package must be a gzip-compressed tar archive with the file name
-``<PRODUCT_NAME>-<PRODUCT_VERSION>`` and either the ``.tgz`` or the ``.tar.gz`` extension.
+``<PRODUCT_NAME>-<PRODUCT_VERSION>`` and either the ``.sls.tgz`` or the ``.sls.tar.gz`` extension.
 
 The package must contain a single top-level directory which *should* have a user-readable name,
 such as ``<PRODUCT_NAME>-<PRODUCT_VERSION>``. This directory must contain the ``service`` and
