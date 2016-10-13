@@ -1,18 +1,19 @@
 # Service Layout Specification
 
-The Service Layout Specification (SLS) describes how a product should be arranged
-and packaged so that deployment infrastructure can use it to create and manage service instances. It includes a **required**
-service layout and package layout, along with **optional** extensions that enable additional
-deployment infrastructure functionality.
+The Service Layout Specification (SLS) describes a set of conventions for how a product should be
+arranged and packaged so that deployment infrastructure can use it to create and manage service
+instances. It includes a **required** service layout and package layout, along with **opt-in**
+extensions that enable additional deployment infrastructure functionality.
 
 For each component of SLS, the functionality it enables is enumerated below.
 
-* [Required Components](/required.md/)
-  * Add and index the product in the package repository
+* [Layout Specification](/layout.md/)
   * Install services
-  * Generate service configuration files
   * Upgrade services
+  * Generate service configuration files
   * Manage the lifecycle of services
+* [Manifest Specification](/manifest.md/)
+  * Add and index the product in the package repository
 * [Monitoring Extension](/monitoring.md/)
   * Integrate monitoring checks for services into the deployment infrastructure
 
