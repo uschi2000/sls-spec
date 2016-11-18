@@ -6,7 +6,7 @@ The manifest file declares immutable information about a package. It is located 
 `deployment/manifest.yml`. It is permissible to include additional keys in the manifest document
 for deployment tooling to consume.
 
-## Version 1.0 (in development)
+## Version 1.0
 
 ```yaml
 manifest-version: 1.0               # (required) Manifest specification version
@@ -15,6 +15,12 @@ product-name: foobar                # (required) Maven artifact ID for product
 product-version: 1.2.3              # (required) Maven version
 product-type: service.v1            # (optional) Product layout type with spec version. Default to 'service.v1' if omitted.
                                     #            Type is one of service.v1, daemon.v1, asset.v1. See layout.md for details.
+
+extensions:                         # (optional) Manifest extensions defined and specified by SLS consumers and tooling.
+  bool-ext: true                    #            Extensions is intentionally less structured and allows for arbitrary
+  map-ext:                          #            JSON so consumers can specify extensions without adjusting this spec.
+    hello: world
+
 ```
 
 ## Version 1.0.0-alpha
