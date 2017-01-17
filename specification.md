@@ -7,14 +7,14 @@ extensions that enable additional deployment infrastructure functionality.
 
 For each component of SLS, the functionality it enables is enumerated below.
 
-* [Layout Specification](/layout.md/)
+* [Layout Specification](layout.md)
   * Install services
   * Upgrade services
   * Generate service configuration files
   * Manage the lifecycle of services
-* [Manifest Specification](/manifest.md/)
+* [Manifest Specification](manifest.md)
   * Add and index the product in the package repository
-* [Monitoring Extension](/monitoring.md/)
+* [Monitoring Extension](monitoring.md)
   * Integrate monitoring checks for services into the deployment infrastructure
 
 ## Goals of SLS
